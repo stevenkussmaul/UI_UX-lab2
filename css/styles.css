@@ -1,0 +1,98 @@
+html {
+    background-image: url("https://www.deboraguidi.it/wp-content/uploads/2014/04/dog.gif");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    font-family: 'Boogaloo', cursive;
+    /* font-size: 3rem; */
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+a{
+    padding: 10px;  
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    background-color: white;
+    text-align: center;
+    padding: 30px 30px;
+    drop-shadow(16px 16px 16px black);
+   }
+
+   input {
+    width: 100%;
+    margin: 10px;
+   }
+
+@media only screen and (min-width: 600px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* text-align: center; */
+
+    }
+
+    nav {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 2px solid gold; */
+        align-items: center;
+    
+    }
+    
+    nav {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+        /* border: 2px solid red; */
+
+    }
+
+}
+
